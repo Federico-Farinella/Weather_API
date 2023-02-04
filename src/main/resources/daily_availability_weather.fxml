@@ -214,14 +214,14 @@
                   <Insets />
                </opaqueInsets>
             </Button>
-            <ImageView fx:id="im_16_17" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
-            <ImageView fx:id="im_15_16" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
-            <ImageView fx:id="im_17_18" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
-            <ImageView fx:id="im_18_19" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
-            <ImageView fx:id="im_19_20" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
-            <ImageView fx:id="im_20_21" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
-            <ImageView fx:id="im_21_22" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
-            <ImageView fx:id="im_22_23" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <ImageView fx:id="im16to17" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ImageView fx:id="im15to16" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="im17to18" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ImageView fx:id="im18to19" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <ImageView fx:id="im19to20" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <ImageView fx:id="im20to21" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <ImageView fx:id="im21to22" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <ImageView fx:id="im22to23" fitHeight="43.0" fitWidth="45.0" layoutX="20.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
          </children>
          <padding>
             <Insets top="10.0" />

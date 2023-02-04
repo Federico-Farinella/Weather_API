@@ -5,7 +5,6 @@ import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,14 +12,14 @@ import java.util.Objects;
 
 public class AvailabilityControlGUI {
     @FXML
-    ImageView im_15_16, im_16_17, im_17_18, im_18_19, im_19_20, im_20_21, im_21_22, im_22_23;
+    ImageView im15to16, im16to17, im17to18, im18to19, im19to20, im20to21, im21to22, im22to23;
     private Controller3 app_controller;
     private ArrayList<ImageView> images ;
 
     @FXML
     Button btnSearch;
 
-    public void weatherByCity() throws IOException {
+    //public void weatherByCity() throws IOException {
 
         //Image image;
         /*Stage window;
@@ -57,7 +56,7 @@ public class AvailabilityControlGUI {
         //Parent root = loader.load();
         window.setScene(new Scene(root));
     //}*/
-    }
+    //}
 
     public void setAppController(Controller3 control) {
         this.app_controller = control;
@@ -164,13 +163,13 @@ public class AvailabilityControlGUI {
 
     public void initialize() {
         images = new ArrayList<>();
-        images.add(im_15_16);
-        images.add(im_16_17);
-        images.add(im_17_18);
-        images.add(im_18_19);
-        images.add(im_19_20);
-        images.add(im_20_21);
-        images.add(im_21_22);
-        images.add(im_22_23);
+        images.add(im15to16);
+        images.add(im16to17);
+        images.add(im17to18);
+        images.add(im18to19);
+        images.add(im19to20);
+        images.add(im20to21);
+        images.add(im21to22);
+        images.add(im22to23);
     }
 }
