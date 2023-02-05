@@ -12,8 +12,24 @@ import java.util.Objects;
 
 public class AvailabilityControlGUI {
     @FXML
-    ImageView im15to16, im16to17, im17to18, im18to19, im19to20, im20to21, im21to22, im22to23;
-    private Controller3 app_controller;
+    ImageView im15to16;
+    @FXML
+    ImageView im16to17;
+    @FXML
+    ImageView im17to18;
+    @FXML
+    ImageView im18to19;
+    @FXML
+    ImageView im19to20;
+    @FXML
+    ImageView im20to21;
+    @FXML
+    ImageView im21to22;
+    @FXML
+    ImageView im22to23;
+
+    private Controller3 APP_CONTROLLER;
+
     private ArrayList<ImageView> images ;
 
     @FXML
@@ -59,7 +75,7 @@ public class AvailabilityControlGUI {
     //}
 
     public void setAppController(Controller3 control) {
-        this.app_controller = control;
+        this.APP_CONTROLLER = control;
     }
 
     public void setImages(HashMap<String,ArrayList<String>> weather_res) {
@@ -75,35 +91,28 @@ public class AvailabilityControlGUI {
             is_day = weather_res.get(Integer.toString(i)).get(1);
             System.out.println("Tempo ora " + i + ": " + condition);
             switch (condition) {
-                case ("\"Sunny\"") : { // Continua da qui bisogna sistemare le classi e metodi per ottenere un HashMap in weather e manipolare immagini da visualizzare
+                case ("\"Sunny\"") -> { // Continua da qui bisogna sistemare le classi e metodi per ottenere un HashMap in weather e manipolare immagini da visualizzare
                     System.out.println("Ok");
                     resource = getClass().getResource("/images/Sunny.png");
                     System.out.println("Yes");
-                    break;
                 }
-
-                case ("\"Clear\"") : {
+                case ("\"Clear\"") -> {
                     System.out.println("I'm in Clear case");
                     resource = getClass().getResource("/images/Moon_Other2.png");
-                    break;
                 }
-                case ("\"Partly cloudy\""): {
+                case ("\"Partly cloudy\"") -> {
                     if (Objects.equals(is_day, "1")) {
                         resource = getClass().getResource("/images/Sun&&Clouds.png");
                     } else {
                         resource = getClass().getResource("/images/Moon_Clouds_Other.png");
                     }
-                    break;
                 }
-                case ("\"Overcast\""): {
+                case ("\"Overcast\"") ->
                     resource = getClass().getResource("/images/Overcast1.png");
-                    break;
-                }
-                case ("\"Cloudy\""): {
+                case ("\"Cloudy\"") ->
                     resource = getClass().getResource("/images/Clouds_Right.png");
-                    break;
-                }
-                case ("\"Patchy rain possible\""): {
+
+                case ("\"Patchy rain possible\"") -> {
                     if (Objects.equals(is_day, "1")) {
                         resource = getClass().getResource("/images/Patchy_Rain_Day.png");
                     } else {
@@ -111,16 +120,11 @@ public class AvailabilityControlGUI {
                         //resource = getClass().getResource("/images/Rain_4.png");
                     }
                 }
-                case ("\"Patchy light drizzle\""): { //|| ("\"Light drizzle\"")): {
+                case ("\"Patchy light drizzle\""), ("\"Light drizzle\"") ->  //|| ("\"Light drizzle\"")): {
                     resource = getClass().getResource("/images/Rain_4.png");
-                    break;
-                }
 
-                case ("\"Light drizzle\""): {
-                    resource = getClass().getResource("/images/Rain_4.png");
-                    break;
-                }
-            // Mi manca , pioggia leggera da sostituire con quella che ho messo Rain_4 che sarà pioggia pesante?, temporale, neve
+
+                // Mi manca , pioggia leggera da sostituire con quella che ho messo Rain_4 che sarà pioggia pesante?, temporale, neve
             }
             if (resource != null) {
                 Image image = new Image(resource.toString());
