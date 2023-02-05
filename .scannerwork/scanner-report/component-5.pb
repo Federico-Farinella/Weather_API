@@ -1,1 +1,1 @@
- 2javaXhrBsrc/main/java/com/example/weather_api/bean/AvailabilityBeanTo.java
+ 2javaXhrBsrc/main/java/com/example/weather_api/bean/AvailabilityBeanTo.java

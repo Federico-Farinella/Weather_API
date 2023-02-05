@@ -1,1 +1,1 @@
- 2javaXShr@src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java
+ 2javaXShr@src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java
