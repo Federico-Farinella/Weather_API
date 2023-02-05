@@ -1,0 +1,7 @@
+com.example.weather_api.AvailabilityControlGUI#setImages(Ljava/util/HashMap;)V
+null
+java.lang.Object#getClass()Ljava/lang/Class;
+java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;
+java.net.URL#toString()Ljava/lang/String;
+java.lang.Integer#toString(I)Ljava/lang/String;
+java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z

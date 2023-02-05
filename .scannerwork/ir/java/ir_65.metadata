@@ -1,0 +1,11 @@
+com.example.weather_api.ControlGUI#weatherByCity()V
+null
+com.example.weather_api.bean.AvailabilityBeanIn#instance-init#
+com.example.weather_api.bean.AvailabilityBeanIn#<init>()V
+java.lang.Object#getClass()Ljava/lang/Class;
+java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;
+com.example.weather_api.Controller3#instance-init#
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;
+java.lang.Integer#toString(I)Ljava/lang/String;
+com.example.weather_api.Controller3#<init>()V

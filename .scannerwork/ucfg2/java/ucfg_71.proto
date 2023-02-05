@@ -1,0 +1,56 @@
+
+Scom.example.weather_api.bean.AvailabilityBeanIn#checkGapDay(Ljava/time/LocalDate;)Z{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java ("4*£
+2{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java! (P›
+˜
+{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java (PD1
+/com.example.weather_api.bean.AvailabilityBeanIn"
+error_message"__id*M
+
+__unknown_file (1/
+-You can only make reservations within 7 days!*
+1*ô
+4{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java (€
+ý
+{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java  (/
+%0java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
+
+__unknown_file ("
+java.time.LocalDateã
+à
+{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java (0"
+actual_datejava.time.LocalDate"__id*7
+
+__unknown_file (
+
+%0java.time.LocalDateûø
+{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java (	
+%1int"#java.time.LocalDate#getDayOfYear()I*9
+
+__unknown_file (
+
+datejava.time.LocalDate2getDayOfYear()‚ÿ
+{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java" (<	
+%2int"#java.time.LocalDate#getDayOfYear()I*@
+
+__unknown_file ($
+"
+actual_datejava.time.LocalDate2getDayOfYear()*
+2
+1*ˆ
+1{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java ("…
+{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java (
+"":š
+{
+qC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java  (.
+datejava.time.LocalDateB31
+/com.example.weather_api.bean.AvailabilityBeanInP

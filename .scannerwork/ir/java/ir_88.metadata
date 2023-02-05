@@ -1,0 +1,2 @@
+com.example.weather_api.bean.AvailabilityBeanIn#setDate(Ljava/time/LocalDate;)Z
+com.example.weather_api.bean.AvailabilityBeanIn#checkGapDay(Ljava/time/LocalDate;)Z

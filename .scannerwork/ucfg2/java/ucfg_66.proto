@@ -1,0 +1,106 @@
+
+Ocom.example.weather_api.bean.WeatherApiBeanTo#setGapDay(Ljava/time/LocalDate;)Zy
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java1 1("6*Ê
+4y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java= =("Ã
+À
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java> >(
+%6java.io.PrintStream"__id*"
+
+__unknown_file (
+""³
+°
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java># >(8
+%7java.lang.String"__concat*Š
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java># >(.
+	Gap day: *ƒ
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java>1 >(8
+""ÈÅ
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java> >(9
+
+%8void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%6java.io.PrintStream*4
+
+__unknown_file (
+
+%7java.lang.String2println(Ljava/lang/String;)*
+1*½
+5y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java5 5(%þ
+û
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java5 5(+
+%1java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
+
+__unknown_file ("
+java.time.LocalDateÙ
+Ö
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java5 5(,
+nowjava.time.LocalDate"__id*7
+
+__unknown_file (
+
+%1java.time.LocalDateïì
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java8 8(!	
+%2int"java.time.LocalDate#getYear()I*9
+
+__unknown_file (
+
+datejava.time.LocalDate2	getYear()îë
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java9 9('	
+%3int"java.time.LocalDate#getYear()I*8
+
+__unknown_file (
+
+nowjava.time.LocalDate2	getYear()ùö
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java: :(%	
+%4int"#java.time.LocalDate#getDayOfYear()I*9
+
+__unknown_file (
+
+datejava.time.LocalDate2getDayOfYear()øõ
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java; ;(+	
+%5int"#java.time.LocalDate#getDayOfYear()I*8
+
+__unknown_file (
+
+nowjava.time.LocalDate2getDayOfYear()*
+4
+1*ñ
+6y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java3 3(è
+å
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java3 3(*
+%0boolean"Ocom.example.weather_api.bean.WeatherApiBeanTo#dateCheck(Ljava/time/LocalDate;)Z*M
+
+__unknown_file (1/
+-com.example.weather_api.bean.WeatherApiBeanTo*9
+
+__unknown_file (
+
+datejava.time.LocalDate*
+5
+1*„
+1y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.javaD D("ƒ
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.javaD D(
+"":˜
+y
+oC:/Users/casastudio.000/weatherApi/Weather_API/src/main/java/com/example/weather_api/bean/WeatherApiBeanTo.java1 1(+
+datejava.time.LocalDateB1/
+-com.example.weather_api.bean.WeatherApiBeanToHP
