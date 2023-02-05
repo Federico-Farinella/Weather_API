@@ -78,7 +78,7 @@ public class AvailabilityControlGUI {
         this.appController = control;
     }
 
-    public void setImages(Map<String,ArrayList<String>> weather_res) {
+    public void setImages(Map<String,ArrayList<String>> weatherResponse) {
         // Sonarcloud mi ha fatto sostituire hashMap con Map
         int i=15;
         URL resource;
@@ -86,10 +86,10 @@ public class AvailabilityControlGUI {
         String is_day;
         for (ImageView im : images) {
             System.out.println(i);
-            System.out.println(weather_res.get(Integer.toString(i)));
-            resource = null;
-            condition = weather_res.get(Integer.toString(i)).get(0);
-            is_day = weather_res.get(Integer.toString(i)).get(1);
+            System.out.println(weatherResponse.get(Integer.toString(i)));
+            //resource = null;
+            condition = weatherResponse.get(Integer.toString(i)).get(0);
+            is_day = weatherResponse.get(Integer.toString(i)).get(1);
             System.out.println("Tempo ora " + i + ": " + condition);
             switch (condition) {
                 case ("\"Sunny\"") -> { // Continua da qui bisogna sistemare le classi e metodi per ottenere un HashMap in weather e manipolare immagini da visualizzare
@@ -124,7 +124,7 @@ public class AvailabilityControlGUI {
                 case ("\"Patchy light drizzle\""), ("\"Light drizzle\"") ->  //|| ("\"Light drizzle\"")): {
                     resource = getClass().getResource("/images/Rain_4.png");
 
-
+                default -> resource = null;
                 // Mi manca , pioggia leggera da sostituire con quella che ho messo Rain_4 che sarà pioggia pesante?, temporale, neve
             }
             if (resource != null) {
@@ -135,13 +135,13 @@ public class AvailabilityControlGUI {
         }
     }
 
-    /*public void setImages(HashMap<String,String> weather_res) {
+    /*public void setImages(HashMap<String,String> weatherResponse) {
         int i=15;
         URL resource;
         for (ImageView im : images) {
             resource = null;
-            System.out.println("Tempo ora " + i + ": " + weather_res.get(Integer.toString(i)));
-            switch (weather_res.get(Integer.toString(i))) {
+            System.out.println("Tempo ora " + i + ": " + weatherResponse.get(Integer.toString(i)));
+            switch (weatherResponse.get(Integer.toString(i))) {
                 case ("\"Sunny\"") : { // Continua da qui bisogna sistemare le classi e metodi per ottenere un HashMap in weather e manipolare immagini da visualizzare
                     System.out.println("Ok");
                     resource = getClass().getResource("/images/Sun_2.png");

@@ -8,7 +8,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -17,16 +16,18 @@ import java.time.LocalDate;
 
 public class ControlGUI {
     @FXML
-    TextField textCity, textTemp;
+    TextField textCity;
+    @FXML
+    TextField textTemp;
     @FXML
     Button btnTemp;
-    @FXML
+    /*@FXML
     ImageView im_15_16 ;//= new ImageView();
     @FXML
     ImageView im_16_17;
 
     @FXML
-    Button btnSearch;
+    Button btnSearch;*/
 
     /*public void setImage(String image){
         im_15_16.setImage(image);
