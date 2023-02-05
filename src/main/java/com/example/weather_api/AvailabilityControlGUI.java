@@ -7,7 +7,7 @@ import javafx.scene.image.ImageView;
 
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 public class AvailabilityControlGUI {
@@ -28,7 +28,7 @@ public class AvailabilityControlGUI {
     @FXML
     ImageView im22to23;
 
-    private Controller3 APP_CONTROLLER;
+    private Controller3 appController;
 
     private ArrayList<ImageView> images ;
 
@@ -75,10 +75,11 @@ public class AvailabilityControlGUI {
     //}
 
     public void setAppController(Controller3 control) {
-        this.APP_CONTROLLER = control;
+        this.appController = control;
     }
 
-    public void setImages(HashMap<String,ArrayList<String>> weather_res) {
+    public void setImages(Map<String,ArrayList<String>> weather_res) {
+        // Sonarcloud mi ha fatto sostituire hashMap con Map
         int i=15;
         URL resource;
         String condition;
