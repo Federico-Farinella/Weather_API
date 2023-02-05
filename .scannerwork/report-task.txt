@@ -3,5 +3,5 @@ projectKey=Federico-Farinella_Weather_API-Dsonar.sources=.
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.37226
 dashboardUrl=https://sonarcloud.io/dashboard?id=Federico-Farinella_Weather_API-Dsonar.sources%3D.
-ceTaskId=AYYiqk9guYCYhifGyMje
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYYiqk9guYCYhifGyMje
+ceTaskId=AYYizo2cXCr1h-eTU5A1
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYYizo2cXCr1h-eTU5A1

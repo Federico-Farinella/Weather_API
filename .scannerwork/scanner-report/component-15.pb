@@ -1,1 +1,1 @@
- 2javaXhrLsrc/main/java/com/example/weather_api/Json_manipulate_weather_api/Coord.java
+ 2javaXhrLsrc/main/java/com/example/weather_api/Json_manipulate_weather_api/Coord.java
