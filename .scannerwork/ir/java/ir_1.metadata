@@ -1,0 +1,7 @@
+com.example.weather_api.Controller3#weitherByCity(Lcom/example/weather_api/bean/AvailabilityBeanIn;)Lcom/example/weather_api/bean/AvailabilityBeanTo;
+com.example.weather_api.bean.WeatherApiBeanTo#instance-init#
+com.example.weather_api.WeatherBoundary#<init>(Lcom/example/weather_api/bean/WeatherApiBeanTo;)V
+com.example.weather_api.bean.AvailabilityBeanTo#<init>()V
+com.example.weather_api.WeatherBoundary#instance-init#
+com.example.weather_api.bean.WeatherApiBeanTo#<init>(Ljava/lang/String;)V
+com.example.weather_api.bean.AvailabilityBeanTo#instance-init#

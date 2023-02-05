@@ -1,0 +1,5 @@
+com.example.weather_api.bean.WeatherApiBeanTo#setGapDay(Ljava/time/LocalDate;)Z
+java.time.LocalDate#getDayOfYear()I
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.time.LocalDate#getYear()I
+com.example.weather_api.bean.WeatherApiBeanTo#dateCheck(Ljava/time/LocalDate;)Z

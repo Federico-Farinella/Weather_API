@@ -1,0 +1,1 @@
+ 2javaX1hrBsrc/main/java/com/example/weather_api/bean/AvailabilityBeanIn.java
